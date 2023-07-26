@@ -8,7 +8,7 @@
 */
 
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -24,6 +24,16 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+
+iframe {
+	width: 100%;
+	aspect-ratio: 16/9;
+}
+
+video{
+	width:100%;
+	height: auto
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -196,7 +206,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 4rem;
+		font-size: 3rem;
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
 	}
